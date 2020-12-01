@@ -9,7 +9,7 @@ def about(request):
   return render(request, 'shop/about.html') 
 
 def contact(request):
-  return render(request, 'shop/about.html')
+  return render(request, 'shop/contact.html')
 
 def tracker(request):
   return HttpResponse("WE ARE AT TRACKER")    
