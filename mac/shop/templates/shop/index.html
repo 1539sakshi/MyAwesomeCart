@@ -46,7 +46,6 @@
   <!-- slide show starts -->
 
 {% for product, range, nSlides in allProds %}
-
   <h1 class="pt-5 pb-3">{{product.0.category}}</h1>
   <div id="demo{{forloop.counter}}" class="carousel slide my-3" data-ride="carousel">
       <ul class="carousel-indicators">
@@ -57,7 +56,6 @@
         {% endfor %}
       </ul>
   
-      
       <div class="container carousel-inner no-padding">
         <div class="carousel-item active">
           <div class="col-xs-3 col-sm-3 col-md-3">
