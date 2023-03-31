@@ -9,3 +9,7 @@ You can also read others blog and can write your own
 - Order Tracker is their to track the order.
 - One can write blogs which would be available to all.
 
+
+## Requirments
+- python3
+- django
